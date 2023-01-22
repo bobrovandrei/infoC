@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  list-style-type: none;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+  background-color: #252525;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 67px;
+  color: #ffffff;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 45px;
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+span {
+  color: #f4d011;
+}
+
+header img {
+  margin-top: 12px;
+}
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #252525;
+}
+
+header select {
+  background-color: #252525;
+  color: white;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+header :first-of-type img {
+  float: left;
+  margin-top: 12px;
+}
+
+header ul {
+  float: right;
+  display: flex;
+  color: aliceblue;
+  list-style-type: none;
+  z-index: 1;
+  position: relative;
+}
+header ul::after {
+  content: url(img/icon\ telegram.png);
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+header ul li {
+  margin-right: 30px;
+  margin-top: 27px;
+  margin-bottom: 27px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/* main */
+
+main {
+  margin-top: 40px;
+}
+
+main img {
+  position: absolute;
+  right: -24%;
+  width: 1003px;
+  top: 0%;
+}
+
+.textcols {
+  width: 803px;
+  column-count: 2;
+  column-gap: 4%;
+  color: white;
+  margin-top: 40px;
+}
+
+.textcols ::before {
+  content: url(img/Vector.png);
+  position: absolute;
+  margin-left: -37px;
+}
+
+.textcols p {
+  margin-bottom: 10px;
+  margin-left: 37px;
+}
+
+button {
+  width: 320px;
+  height: 65px;
+  background: #f4d011;
+  box-shadow: 0px 4px 4px rgba(245, 207, 18, 0.25);
+  border-radius: 5px;
+  border: none;
+  color: #171717;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-right: 60px;
+  z-index: 1;
+  position: relative;
+}
+
+button a {
+  color: #171717;
+  text-decoration: none;
+  background-color: #f4d011;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.buttons :nth-child(2) {
+  background: rgb(0 0 0 / 0%);
+  border: solid #f4d011;
+}
+
+.buttons :nth-child(2) a {
+  color: #f4d011;
+  background: rgb(0 0 0 / 0%);
+}
+
+/* section */
+
+section {
+  margin-top: 150px;
+}
+
+section p {
+  color: white;
+}
+
+.info img {
+  position: absolute;
+  right: 111px;
+}
+
+.courses {
+  column-count: 2;
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.courses ul li {
+  width: 580px;
+  height: 521px;
+  background: #f2f2f2;
+  box-shadow: 0px 3px 4px rgba(153, 153, 153, 0.25),
+    0px -3px 4px rgba(153, 153, 153, 0.1);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.courses img {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.courses ul li p {
+  color: black;
+  margin-bottom: 10px;
+}
+
+.courses h2 {
+  margin-bottom: 12px;
+}
+
+.courses img :first-of-type img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.price {
+  width: 533px;
+  height: 66px;
+  background: #ffffff;
+  box-shadow: 0px 3px 4px rgba(153, 153, 153, 0.25),
+    0px -3px 4px rgba(153, 153, 153, 0.1);
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.buttons_courses button {
+  width: 260px;
+  height: 65px;
+  background: #ffffff;
+  border: 2px solid #252525;
+  box-shadow: 0px 4px 4px rgba(85, 85, 85, 0.25);
+  border-radius: 5px;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+.buttons_courses a {
+  background-color: #ffffff00;
+}
+
+.buttons_courses :nth-child(2) {
+  background: #f4d011;
+  box-shadow: 0px 4px 4px rgba(85, 85, 85, 0.25);
+  border-radius: 5px;
+  border: none;
+  margin-left: 12px;
+}
+
+/* slider */
+
+.text {
+  margin-left: 30px;
+}
+
+.text h2 {
+  color: #ffffff;
+}
+
+.sim-slider {
+  position: relative;
+  width: 100%;
+  padding: 30px 50px;
+  background-color: #ffffff00;
+  margin-top: 100px;
+  height: 212px;
+  margin-bottom: 80px;
+}
+
+.sim-slider-list {
+  list-style-type: none;
+  position: relative;
+}
+
+.sim-slider-element {
+  transition: opacity 1s ease-in;
+  opacity: 0;
+  position: absolute;
+  z-index: 2;
+  left: 40px;
+  margin-right: 40px;
+  top: 0;
+  display: flex;
+}
+
+/* Navigation item styles */
+div.sim-slider-arrow-left,
+div.sim-slider-arrow-right {
+  width: 32px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+}
+
+div.sim-slider-arrow-left {
+  left: 10px;
+  top: 50%;
+  display: block;
+  background: url(img/arrow\ left.png) no-repeat;
+}
+
+div.sim-slider-arrow-right {
+  right: 10px;
+  top: 50%;
+  display: block;
+  background: url(img/arrow\ right.svg) no-repeat;
+}
+
+div.sim-slider-arrow-left:hover {
+  opacity: 1;
+}
+
+div.sim-slider-arrow-right:hover {
+  opacity: 1;
+}
+
+div.sim-slider-dots {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+  text-align: center;
+}
+
+span.sim-dot {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  padding: 0;
+  display: inline-block;
+  background-color: #bbb;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* form */
+
+.kontakt p {
+  color: #ffffff;
+  float: left;
+}
+
+.kontakt form {
+  float: right;
+  display: flex;
+}
+
+input[type="number" i] {
+  width: 258px;
+  height: 64px;
+  background: #f2f2f2;
+  box-shadow: 0px 4px 4px rgb(85 85 85 / 25%);
+  border-radius: 5px;
+  text-align: center;
+}
+
+input[type="submit" i] {
+  cursor: pointer;
+  width: 260px;
+  height: 65px;
+  background: #f4d011;
+  box-shadow: 0px 4px 4px rgb(85 85 85 / 25%);
+  border-radius: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+footer li {
+  color: white;
+}
+
+footer ul li {
+  line-height: 25px;
+}
+
+footer img {
+  margin-top: 67px;
+}
+
+hr {
+  border-bottom: 1px solid rgba(244, 208, 17, 0.2);
+  border-radius: 100px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.body-img {
+  position: absolute;
+}
+
+.body-img :nth-child(1) {
+  position: absolute;
+  top: 1792px;
+  z-index: 1;
+}
+.body-img :nth-child(2) {
+  position: absolute;
+  top: 300px;
+  left: 463px;
+  z-index: 1;
+}
+
+.body-img :nth-child(3) {
+  position: absolute;
+  top: 2664px;
+  left: -42px;
+}
+
+.body-img :nth-child(4) {
+  position: absolute;
+  top: 2208px;
+  left: 477px;
+}
